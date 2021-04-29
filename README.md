@@ -23,4 +23,11 @@ Below are screenshots of the runtimes of the first method for 2017 and 2018.
 And here are the (significantly faster) runtimes of the second method.
 <img width="235" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/80861610/116588962-27e40280-a8ea-11eb-8485-ae0325da0233.png"> <img width="235" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/80861610/116588883-113dab80-a8ea-11eb-88bc-e5b87f82b7ec.png">
 
+## Summary
+### Advantages and Disadvantages of Refactoring
+In general, refactoring a code is advantageous because it tries to make the code more efficient in terms of its usage of time and memory. The disadvantage of refactoring is that, in making the code more efficient, it may also become more difficult for a human reader to parse, especially if operations have been combined in ways that make what the code is doing less explicit to a reader.  
 
+### Advantages and Disadvantages of the Methods Used
+With respect to the code written for this project, the main advantage of the refactored code was that it ran much faster than the unrefactored code. Another advantage is that it is somewhat simpler for a human reader to parse, since it eliminates the need for nested loops.
+
+One disadvantage of the refactored code is that, if we wanted to run it over a different number of stocks than the twelve analyzed, we would have to change the sizes of four different arrays in the code, whereas, with the unrefactored code, we would only have to do this for one. This problem could be solved by changing the code so that it determines the size of these arrays dynamically at runtime instead of through hard-coded values.
