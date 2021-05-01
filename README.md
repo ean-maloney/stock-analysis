@@ -258,9 +258,11 @@ End Sub
 ```
 
 Below are screenshots of the runtimes of the first method for 2017 and 2018.
+
 <img width="226" alt="VBA_Challenge_2017_unref" src="https://user-images.githubusercontent.com/80861610/116588791-f79c6400-a8e9-11eb-81f6-356e9d6edca6.png"> <img width="230" alt="VBA_Challenge_2018_unref" src="https://user-images.githubusercontent.com/80861610/116588797-f9662780-a8e9-11eb-9ee1-78ea30405e3d.png">
 
 And here are the (significantly faster) runtimes of the second method.
+
 <img width="235" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/80861610/116588962-27e40280-a8ea-11eb-8485-ae0325da0233.png"> <img width="235" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/80861610/116588883-113dab80-a8ea-11eb-88bc-e5b87f82b7ec.png">
 
 ## Summary
